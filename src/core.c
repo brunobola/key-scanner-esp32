@@ -1,3 +1,5 @@
+#include "core.h"
+
 #include <zephyr/zephyr.h>
 #include <zephyr/sys/printk.h>
 
@@ -6,9 +8,6 @@
 
 /* scheduling priority used by each thread */
 #define PRIORITY 7
-
-/* payload max size */
-#define PLD_SIZE 128
 
 /* string concatenation magic macros */
 #define STR_(X) #X
